@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="Dark street basketball wall background">
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1">
+      <stop offset="0" stop-color="#050504"/>
+      <stop offset="0.52" stop-color="#14100b"/>
+      <stop offset="1" stop-color="#26130a"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="74%" cy="47%" r="42%">
+      <stop offset="0" stop-color="#f07800" stop-opacity="0.34"/>
+      <stop offset="0.48" stop-color="#7c3000" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="rough">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012 0.05" numOctaves="4" seed="4"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.24"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#wall)"/>
+  <rect width="1920" height="1080" fill="url(#spot)"/>
+  <g opacity="0.2">
+    <path d="M1030 110h700v760h-700z" fill="#7a2c0c"/>
+    <g stroke="#c47a4e" stroke-opacity="0.4" stroke-width="3">
+      <path d="M1030 170h700M1030 235h700M1030 300h700M1030 365h700M1030 430h700M1030 495h700M1030 560h700M1030 625h700M1030 690h700M1030 755h700M1030 820h700"/>
+      <path d="M1095 110v760M1230 110v760M1365 110v760M1500 110v760M1635 110v760"/>
+    </g>
+  </g>
+  <g fill="#f07800" opacity="0.82">
+    <path d="M0 105 262 54 66 178 454 116 180 238 0 276z"/>
+    <path d="M1654 388h220l-31 58 77-22v59l-315 86 43-74-135 28z"/>
+    <path d="M0 648 300 554 108 708 420 642 58 832 0 810z"/>
+    <path d="M1438 905 1920 825v96l-535 128z"/>
+  </g>
+  <g opacity="0.19" fill="none" stroke="#f4ead8" stroke-width="10">
+    <path d="M1665 105h190v116h-190z"/>
+    <path d="M1760 221c0 72-52 98-96 98M1760 221c0 72 52 98 96 98"/>
+    <path d="M1698 210h124"/>
+  </g>
+  <g opacity="0.12" fill="#f4ead8" font-family="Impact, Arial Black, sans-serif" font-size="190">
+    <text x="1040" y="640" transform="rotate(-7 1040 640)">STREET</text>
+    <text x="1310" y="720" transform="rotate(-8 1310 720)">BALL</text>
+  </g>
+  <rect width="1920" height="1080" filter="url(#rough)" opacity="0.6"/>
+  <rect width="1920" height="1080" fill="none" stroke="#000" stroke-width="54" opacity="0.36"/>
+</svg>
